@@ -17,7 +17,7 @@ Base cases:
 - 0 == 0
 - 1 == 0
 
-**Runtime 101ms -> > 36.32%**
+**Runtime 101ms -> > 36.32%** \
 **Memory usage 13.9MB -> < 75.93%**
 
 ## Solution 2
@@ -26,5 +26,12 @@ Same method as Solution 1 but changes items in the cost array in-place to be the
 
 e.g. [10, 15, 20] -> [10, 15, 30] => min(15, 30) = 15
 
-**Runtime 77ms -> > 69.60%**
+**Runtime 77ms -> > 69.60%** \
 **Memory usage 13.9MB -> < 75.93%**
+
+### Golang
+
+A version of this solution written in Golang was added.
+
+**Runtime 2ms -> > 92.45%** \
+**Memory usage 2.9MB -> < 87.08%**
